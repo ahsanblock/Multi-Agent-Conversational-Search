@@ -2,22 +2,22 @@
 
 A Multi Agent Conversational product search system that uses multiple AI agents to provide personalized search results. The system combines vector search, natural language processing, and multi-agent coordination to deliver relevant product recommendations.
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/Multi-Agent-Conversational-Search?style=social)](https://github.com/yourusername/Multi-Agent-Conversational-Search/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/Multi-Agent-Conversational-Search?style=social)](https://github.com/yourusername/Multi-Agent-Conversational-Search/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/Multi-Agent-Conversational-Search)](https://github.com/yourusername/Multi-Agent-Conversational-Search/issues)
-[![GitHub license](https://img.shields.io/github/license/yourusername/Multi-Agent-Conversational-Search)](https://github.com/yourusername/Multi-Agent-Conversational-Search/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ahsanblock/Multi-Agent-Conversational-Search?style=social)](https://github.com/ahsanblock/Multi-Agent-Conversational-Search/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ahsanblock/Multi-Agent-Conversational-Search?style=social)](https://github.com/ahsanblock/Multi-Agent-Conversational-Search/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/ahsanblock/Multi-Agent-Conversational-Search)](https://github.com/ahsanblock/Multi-Agent-Conversational-Search/issues)
+[![GitHub license](https://img.shields.io/github/license/ahsanblock/Multi-Agent-Conversational-Search)](https://github.com/ahsanblock/Multi-Agent-Conversational-Search/blob/main/LICENSE)
 
 ## System Architecture
 
 Below is the high-level architecture of our multi-agent system:
 
-![System Architecture](public/images/architecture.svg)
+<div align="center">
+  <img src="./public/images/architecture.png" alt="System Architecture" width="800"/>
+</div>
 
 ## Demo
 
-Watch our system in action:
-
-https://github.com/yourusername/Multi-Agent-Conversational-Search/assets/yourusername/public/images/demo.mov
+![Demo](https://github.com/user-attachments/assets/fb3f7664-7bb6-4e0a-bfa6-af6b48acf290)
 
 ## Features
 

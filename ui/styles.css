@@ -1,0 +1,241 @@
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-10px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* General styles */
+body {
+    background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+    color: #2d3748;
+}
+
+/* Search input enhancements */
+#searchInput {
+    background-color: white;
+    color: #2d3748;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+    border-color: #4299e1;
+}
+
+#searchButton {
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#searchButton:hover {
+    background: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
+}
+
+/* Product card enhancements */
+.product-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-color: #4299e1;
+}
+
+.product-card h3 {
+    color: #2d3748;
+}
+
+.product-card p {
+    color: #4a5568;
+}
+
+/* Results section */
+#results .bg-gray-800 {
+    background: white;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* AI response styling */
+#aiResponse {
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Price tag styling */
+.price-tag {
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    color: white;
+    font-weight: 600;
+}
+
+/* Header styling */
+header h1 {
+    color: #2d3748;
+    font-weight: 700;
+}
+
+header p {
+    color: #4a5568;
+}
+
+/* Loading state */
+#loading .border-blue-500 {
+    border-color: #4299e1;
+}
+
+#loading p {
+    color: #4a5568;
+}
+
+/* Error state */
+#error {
+    background: #fff5f5;
+    border: 1px solid #feb2b2;
+    color: #c53030;
+}
+
+/* Suggestion tag styles */
+.suggestion-tag {
+    background: #ebf8ff;
+    color: #2b6cb0;
+    border: 1px solid #bee3f8;
+    transition: all 0.2s ease;
+}
+
+.suggestion-tag:hover {
+    background: #4299e1;
+    color: white;
+    border-color: #4299e1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f7fafc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+}
+
+/* Search form container */
+.bg-gray-800 {
+    background: white !important;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Text colors */
+.text-gray-100 {
+    color: #2d3748 !important;
+}
+
+.text-gray-300, .text-gray-400 {
+    color: #4a5568 !important;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    #searchInput {
+        font-size: 1rem;
+    }
+}
+
+/* General styles */
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-slide-in {
+    animation: slideIn 0.3s ease-in-out;
+}
+
+/* Dark mode styles */
+.dark {
+    color-scheme: dark;
+}
+
+.dark body {
+    background-color: #2D3748;
+    color: #F3F4F6;
+}
+
+.dark .bg-white {
+    background-color: #4A5568;
+}
+
+.dark .text-gray-800 {
+    color: #F3F4F6;
+}
+
+.dark .text-gray-600 {
+    color: #D1D5DB;
+}
+
+.dark .text-gray-700 {
+    color: #E5E7EB;
+}
+
+.dark .border-gray-300 {
+    border-color: #4B5563;
+}
+
+.dark .suggestion-tag {
+    background-color: #1E40AF;
+    color: #E5E7EB;
+}
+
+.dark .suggestion-tag:hover {
+    background-color: #2563EB;
+}
+
+/* Custom scrollbar for dark mode */
+.dark ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #1F2937;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #4B5563;
+    border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #6B7280;
+} 

@@ -1,0 +1,74 @@
+/* Base styles */
+body {
+    background-color: #f8fafc;
+}
+
+/* Search button */
+#searchButton {
+    background-color: #3b82f6;
+    transition: background-color 0.2s;
+}
+
+#searchButton:hover {
+    background-color: #2563eb;
+}
+
+/* Loading spinner */
+.animate-spin {
+    border-color: #3b82f6;
+    border-width: 4px;
+}
+
+/* Product cards */
+.product-card {
+    background-color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Example searches */
+.example-search {
+    transition: transform 0.2s;
+}
+
+.example-search:hover {
+    transform: translateY(-1px);
+}
+
+/* Error state */
+#error {
+    background-color: #fee2e2;
+    border: 1px solid #ef4444;
+    color: #b91c1c;
+}
+
+/* AI Response styling */
+#aiResponse {
+    line-height: 1.6;
+}
+
+#aiResponse p {
+    margin-bottom: 1rem;
+}
+
+#aiResponse ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .product-card {
+        margin-bottom: 1rem;
+    }
+} 
